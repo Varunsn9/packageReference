@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <IsPackable>false</IsPackable>
+    <IsTestProject>true</IsTestProject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Bytescout.Spreadsheet" Version="4.7.1.2054" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.5.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="NUnit" Version="3.13.3" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.4.2" />
+    <PackageReference Include="NUnit.Analyzers" Version="3.6.1" />
+    <PackageReference Include="coverlet.collector" Version="3.2.0" />
+      <PackageReference Include="Selenium.WebDriver" Version="3.141.0" />
+	  <PackageReference Include="Selenium.Support" Version="3.141.0" />
+	  <PackageReference Include="WebDriverManager" Version="2.17.1" />
+	  <PackageReference Include="RestSharp" Version="110.2.1-alpha.0.11" />
+  </ItemGroup>
+	
+  <ItemGroup>
+    <Folder Include="Main\Utility\" />
+    <Folder Include="ObjRepo\" />
+    <Folder Include="TestScript\" />
+  </ItemGroup>
+
+</Project>
